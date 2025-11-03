@@ -1,0 +1,61 @@
+{
+  "exact_match_accuracy": 0.2,
+  "hamming_loss": 0.21333333333333335,
+  "f1_macro": 0.7238407760098764,
+  "per_target": {
+    "is_HDPE": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 5
+    },
+    "is_LDPE": {
+      "precision": 1.0,
+      "recall": 0.2857142857142857,
+      "f1": 0.4444444444444444,
+      "support": 7
+    },
+    "is_LLDPE": {
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875,
+      "support": 8
+    },
+    "is_PP": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091,
+      "support": 5
+    },
+    "has_BSA": {
+      "precision": 0.625,
+      "recall": 0.6666666666666666,
+      "f1": 0.6451612903225806,
+      "support": 15
+    },
+    "has_OIL": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1": 0.9166666666666666,
+      "support": 12
+    },
+    "has_GUAR": {
+      "precision": 1.0,
+      "recall": 0.4166666666666667,
+      "f1": 0.5882352941176471,
+      "support": 12
+    },
+    "has_CMC": {
+      "precision": 0.7058823529411765,
+      "recall": 0.75,
+      "f1": 0.7272727272727273,
+      "support": 16
+    },
+    "has_STARCH": {
+      "precision": 0.6363636363636364,
+      "recall": 0.5833333333333334,
+      "f1": 0.6086956521739131,
+      "support": 12
+    }
+  }
+}
